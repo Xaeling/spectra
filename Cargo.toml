@@ -1,0 +1,61 @@
+[package]
+name = "spectra"
+version = "0.1.0"
+edition = "2021"
+description = "析光 Spectra — 科研绘图与统计：charis-ui 前端 + Rust + plotters 绘图"
+
+[[bin]]
+name = "spectra"
+path = "src/main.rs"
+
+[dependencies]
+charis-ui = "0.1"
+plotters = { version = "=0.3.7", features = ["svg_backend", "ab_glyph"] }
+# 高级统计图（箱线/小提琴/ROC/ECDF/QQ/热图…）作为 plotters 原生 Series 提供，
+# 与 plotters 同一引擎 —— 中文字体注册与位图缓冲管线完全不受影响。
+# 注意：它把 plotters 精确锁在 =0.3.7，所以下面把主库也对齐到同一版本。
+plotters-statistical = "0.2"
+# 系统文件选择框（打开 / 保存 / 选目录）。Windows 走原生 IFileDialog，
+# macOS 走 NSOpenPanel，Linux 依次尝试 zenity / kdialog / GTK。
+rfd = "0.15"
+# 系统剪贴板读写（arboard）：让复制/粘贴可跨程序，例如直接粘贴 Excel 区域
+arboard = "3"
+# ZIP 容器读写：.sprx / .prism 双格式的底层存储。
+# 之前是手写 store 模式，现改用成熟库 —— 边界情况（ZIP64、数据描述符、
+# 第三方产出的文件）自己实现容易解析失败，得不偿失。
+zip = "2"
+# 结构化 JSON：`.sprx` 的 manifest / 各 sheet 对象，以及 `spectra/snapshot.json`
+# 完整工程快照都用它序列化。手写 JSON 拼字符串在转义与嵌套上太易错。
+# CSV 读写：`.sprx` 的 `sheets/data/<id>/data.csv`（RFC 4180、LF、无标题行、
+# 矩形补齐）。手写转义在引号翻倍与嵌入换行上很容易出错，用成熟库更稳。
+csv = "1"
+# JPEG XL 编码：image crate 至今没有 JXL 编码器，这里是独立的纯 Rust 实现。
+# ★ 注意许可：jxl-encoder 是 AGPL-3.0 / 商业双许可。若本项目按 AGPL 之外的
+#   条款分发，需要先取得商业授权，或把下面这一行连同 src/export.rs 里的
+#   ExportFormat::Jxl 一起删掉（删掉后导出弹窗里就没有 JPEG XL 这一项）。
+jxl-encoder = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# 多格式位图编码：PNG / JPEG / BMP / TIFF / GIF / WebP / TGA / PNM / QOI。
+# plotters 自带的 BitMapBackend 只能按它内置的那几种扩展名写盘，
+# 想让用户在一个下拉里挑格式就得自己编码。这里只开需要的格式特性，
+# 避免把整套 image 编解码器都编进来。
+image = { version = "0.25", default-features = false, features = [
+    "png",
+    "jpeg",
+    "bmp",
+    "tiff",
+    "gif",
+    "webp",
+    "tga",
+    "pnm",
+    "qoi",
+] }
+
+[build-dependencies]
+# Windows 资源编译（图标 + 版本信息）。非 Windows 平台 build.rs 里整块被剔除，
+# 但依赖仍需声明，否则跨平台编译会找不到 crate。
+winres = "0.1"
+
+[profile.release]
+opt-level = 3
