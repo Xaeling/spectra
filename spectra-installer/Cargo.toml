@@ -1,0 +1,43 @@
+[package]
+name = "spectra-installer"
+version = "1.0.0"
+edition = "2021"
+description = "析光 Spectra 安装 / 卸载程序（纯 Rust，eframe + egui）"
+
+[[bin]]
+name = "spectra-installer"
+path = "src/main.rs"
+
+[dependencies]
+# 说明：主项目 prism-rs 用的是 egui/eframe 0.37。
+# 这里刻意对齐到 0.37，而不是 0.31 —— 否则同一台机器上会编译出两份
+# egui（各带一套 winit / wgpu），编译慢且体积翻倍。
+# 如果你确实要 0.31，把这四行改掉即可，代码逻辑不受影响。
+eframe = "0.37"
+egui = "0.37"
+
+winreg = "0.55"
+lnks = "0.2"
+known-folders = "1.0"
+
+# 说明：这里刻意不再依赖 self-replace。
+# 它的 self_delete() 在 Windows 上的实现是「把自己复制到 temp → 派生隐藏
+# helper 进程 → 等父进程退出后删掉原 exe」，这套动作是启发式杀软的重点特征，
+# 卸载程序很容易被报毒。改用 src/selfdel.rs 里的 cmd 延迟删除方案：
+# 不生成任何额外可执行文件，且能连 uninstall.exe 自身一起删掉。
+
+[dependencies.windows]
+version = "0.58"
+features = [
+    "Win32_UI_Shell",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Foundation",
+]
+
+[build-dependencies]
+# 仅 Windows 生效：把图标嵌进 installer 的 exe
+winres = "0.1"
+
+[profile.release]
+opt-level = 2
+lto = false

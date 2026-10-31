@@ -1,0 +1,11 @@
+dataset,fill_color,fill_hex,border_color,border_hex,notes
+1_Black,Black (off-black),"#1A1A1A",Black,"#1A1A1A",Default first dataset; solid black in older Prism
+2_Green,Green,"#009E73",Dark Green,"#007250",Prism default green (colorblind-safe-ish)
+3_Purple_light,Light Purple,"#948FD4",Purple,"#6B63B5",3rd dataset light purple fill
+4_Purple_dark,Deep Purple,"#5C4F9D",Darker Purple,"#3D3370",4th dataset deep purple
+5_Orange,Orange,"#E69F00",Dark Orange,"#B87700",5th dataset amber/orange
+1_Errbar_black,Black,"#1A1A1A",NA,NA,Error bars match dataset 1
+2_Errbar_green,Green,"#009E73",NA,NA,Error bars match dataset 2
+3_Errbar_purple,Light Purple,"#948FD4",NA,NA,Error bars match dataset 3
+4_Errbar_deep,Deep Purple,"#5C4F9D",NA,NA,Error bars match dataset 4
+5_Errbar_orange,Orange,"#E69F00",NA,NA,Error bars match dataset 5

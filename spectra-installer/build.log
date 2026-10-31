@@ -1,0 +1,13 @@
+ 
+=== Spectra installer build ===
+bat dir  : D:\project\spectra-installer\
+main dir : D:\project\spectra-installer\..\spectra
+payload  : D:\project\spectra-installer\..\spectra\target\release
+cargo ok
+main build skipped
+main build ok
+embed    : D:\project\spectra-installer\..\spectra\target\release\spectra.exe
+installer build ok
+published: 59182080 bytes
+zip      : Spectra-Setup.zip
+=== done ===

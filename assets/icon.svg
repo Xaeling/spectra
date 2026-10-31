@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 第 1 层 底板：白色圆角方形（不透明，避免深色任务栏显示成白块以外的空洞） -->
+  <rect x="0" y="0" width="256" height="256" rx="56" ry="56" fill="white"/>
+
+  <!-- 第 2 层 坐标轴：L 形，深藏青，线宽 4，圆端点。原点 (36,210) -->
+  <g stroke="#1B2A4E" stroke-width="4" stroke-linecap="round" fill="none">
+    <line x1="36" y1="210" x2="220" y2="210"/>
+    <line x1="36" y1="210" x2="36" y2="46"/>
+  </g>
+
+  <!-- 第 3 层 散点：5 个，半径 3，y 由 170 递减到 72（递增趋势） -->
+  <g fill="#1B2A4E">
+    <circle cx="60"  cy="170" r="3"/>
+    <circle cx="92"  cy="152" r="3"/>
+    <circle cx="128" cy="118" r="3"/>
+    <circle cx="164" cy="96"  r="3"/>
+    <circle cx="200" cy="72"  r="3"/>
+  </g>
+
+  <!-- 第 4 层 拟合曲线：青绿→品紫横向渐变 -->
+  <defs>
+    <linearGradient id="fitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00C9A7"/>
+      <stop offset="100%" stop-color="#C93BFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M 56 174 C 80 160, 100 150, 128 118 S 180 85, 204 70"
+        fill="none" stroke="url(#fitGrad)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 第 5 层 误差棒（半长 12，帽宽 8）+ R² 标注 -->
+  <g stroke="#1B2A4E" stroke-width="2" stroke-linecap="round">
+    <line x1="164" y1="84" x2="164" y2="108"/>
+    <line x1="160" y1="84" x2="168" y2="84"/>
+    <line x1="160" y1="108" x2="168" y2="108"/>
+  </g>
+  <text x="168" y="58" font-family="-apple-system, 'Segoe UI', sans-serif"
+        font-size="14" fill="#1B2A4E" font-weight="600">R²=0.97</text>
+</svg>
