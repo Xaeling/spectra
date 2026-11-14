@@ -1,0 +1,11 @@
+D:\project\stataura\installer\target\release\deps\egui_winit-e5b1fae0d3d90a6a.d: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\clipboard.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\dropped_file.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\safe_area.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\window_settings.rs
+
+D:\project\stataura\installer\target\release\deps\libegui_winit-e5b1fae0d3d90a6a.rlib: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\clipboard.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\dropped_file.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\safe_area.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\window_settings.rs
+
+D:\project\stataura\installer\target\release\deps\libegui_winit-e5b1fae0d3d90a6a.rmeta: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\clipboard.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\dropped_file.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\safe_area.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\window_settings.rs
+
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\lib.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\clipboard.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\dropped_file.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\safe_area.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\egui-winit-0.37.0\src\window_settings.rs:

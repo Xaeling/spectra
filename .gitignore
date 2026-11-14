@@ -1,0 +1,10 @@
+/target
+/out
+*.aura.tmp
+dirty.log
+spec_diff.log
+*.png
+!docs/screenshots/*.png
+
+debug.log
+!assets/*.png
