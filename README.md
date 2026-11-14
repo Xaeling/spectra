@@ -1,28 +1,64 @@
-## 本项目是一个独立实现的功能演示/学习项目，核心代码由 AI（Hunyuan 4.0 preview）生成，并经人工整理与测试。项目未使用原软件的任何源代码、二进制文件、素材、文档或商标，也不包含破解、绕过授权或分发原软件的内容。项目与原作者及官方无关联，未获其授权或背书。功能思路仅来自公开资料、通用需求或用户描述，代码与实现均为独立完成。本项目仅用于学习交流和技术演示，不用于商业用途；如相关权利人认为存在异议，请联系我们删除或调整。
-## This project is an independent implementation for learning and technical demonstration. Its core code was generated with the assistance of an AI model (Hunyuan 4.0 preview) and then organized and tested manually. It does not use any source code, binaries, assets, documentation, or trademarks from the original software, and it does not include any cracking, license-bypassing, or redistribution of the original software. This project is not affiliated with, endorsed by, or authorized by the original developer or official team. Any functional inspiration comes only from public information, general requirements, or user descriptions, while the code and implementation are independently produced. This project is intended solely for learning, communication, and technical demonstration, not for commercial use. If any rights holder has concerns, please contact us for removal or adjustment.
+# StatAura — 科研统计与出版级绘图 / Research Statistics & Publication-Ready Figures
 
-# 析光 Spectra
+> 从录入数据、跑统计检验，到导出可直接投稿的图表，一个软件里完成。
+> From raw data to a figure you can submit — one desktop app, end to end.
+
+---
 
 ## 中文
 
-析光 Spectra 是一款面向科研工作者的桌面统计分析与科学绘图软件，以原生性能与本地化处理为核心：无需联网，数据不上传。
+### 数据录入与整理
 
-软件以数据表为组织单元，支持 XY、分组、列、嵌套、列联等多种表类型，录入数据后即可直接分析。
+- **按设计选表，而不是迁就软件**：内置 8 种数据表型——XY、柱状、分组、列联、生存、构成、多变量、嵌套。实验设计是什么样，就选哪张表，后续分析自然走对路。
+- **像用 Excel 一样顺手**：直接键入、复制粘贴、批量填充、撤销重做，不用先学一套新操作。
+- **导入与清理都留痕**：支持 CSV 导入，行列自由增删；排除值可标记而不删除——不参与计算，但保留在表中，复核时有据可查。
 
-分析能力覆盖 60 种统计方法，包括描述统计、t 检验、单因素与嵌套方差分析、非参数检验、回归与 11 种非线性模型拟合、生存分析与多元统计。内置的智能统计制图推荐会先完成正态性与方差齐性诊断，再据此推荐合适的检验方法、图形表达与多重比较方案。
+### 统计分析
 
-绘图方面提供 60 种图表类型，支持误差棒、散点叠加与显著性标注；标注采用期刊通行的分级标准并可显示精确 P 值。图形可导出 PNG、JPEG、TIFF、SVG、TikZ、Matplotlib 脚本等 13 种格式，矢量输出可直接用于论文排版。
+- **基础统计**：描述性统计、正态性检验、离群值检测。先看清楚数据，再谈结论。
+- **组间比较**：独立 / 配对 t 检验、单因素与双因素方差分析（ANOVA）、非参数检验。
+- **相关与回归**：Pearson / Spearman 相关、线性回归、曲线拟合，并用 AICc 比较模型优劣。
+- **专门检验**：卡方与列联表、Kaplan–Meier 生存曲线与 log-rank 检验、嵌套设计、重复测量。
+- **智能分析**：选好数据即推荐合适的检验方法，并自动给出可直接引用的结论。
 
-工程以 .sprx 单文件保存，基于 ZIP 容器并内嵌无损快照，旨在再次打开时完整还原数据与图表状态。
+### 出版级图表
+
+- **40+ 图型随手切换**：折线、散点、柱状、箱线、生存曲线、误差棒、双 Y 轴、热图等。换的是视角，不是数据。
+- **为期刊而生的配色**：多套科研配色，含色盲友好方案。
+- **多图拼版**：一键合成大图，自动标注 a / b / c 面板图注。
+
+### 导出
+
+- 支持 PNG / SVG / PDF，300–600 DPI；屏幕预览与最终成品同源，所见即所得。
+- 矢量输出任意放大不失真，直接满足期刊投稿要求。
+
+---
 
 ## English
 
-Spectra is a desktop application for statistical analysis and scientific plotting, built for researchers who work with experimental data. It runs entirely offline — no account, no upload, no telemetry.
+### Data Entry & Organization
 
-Data is organized into typed tables (XY, grouped, column, nested, contingency). Once values are entered, analysis can be run immediately.
+- **Start from your design, not the software's**: 8 purpose-built table formats — XY, Column, Grouped, Contingency, Survival, Parts-of-Whole, Multiple Variables, and Nested. Pick the table that matches your experiment and the analysis follows naturally.
+- **An editor that feels familiar**: type directly, copy-paste, fill down, undo/redo. No new workflow to learn.
+- **Import and clean without losing the trail**: CSV import, with rows and columns added or removed freely. Flag values as excluded — left out of the calculations, kept in the sheet for full traceability.
 
-The analysis engine covers 60 statistical procedures: descriptive statistics, t-tests, one-way and nested ANOVA, nonparametric tests, regression with 11 built-in nonlinear models, survival analysis, and multivariate methods. A built-in advisor first runs normality and homogeneity diagnostics, then recommends an appropriate test, chart form, and multiple-comparison procedure based on the results.
+### Statistical Analysis
 
-Plotting offers 60 chart types with error bars, overlaid scatter, and significance annotation. Annotations follow conventional journal tiers and can display exact P values. Figures export to 13 formats — PNG, JPEG, TIFF, SVG, TikZ, and Matplotlib scripts among them — with vector output ready for publication.
+- **Descriptives**: descriptive statistics, normality tests, and outlier detection — know your data before you interpret it.
+- **Group comparisons**: unpaired and paired t-tests, one- and two-way ANOVA, and nonparametric tests.
+- **Correlation & regression**: Pearson / Spearman correlation, linear regression, and curve fitting with AICc-based model comparison.
+- **Specialized analyses**: chi-square and contingency tables, Kaplan–Meier survival curves with the log-rank test, nested designs, and repeated measures.
+- **Guided analysis**: select your data and get a recommended test plus a plain-language conclusion, automatically.
 
-Projects are stored as a single .sprx file: a ZIP container with an embedded lossless snapshot, designed so reopening restores data and figures in full.
+### Publication-Ready Figures
+
+- **40+ chart types, one click away**: line, scatter, bar, box-and-whisker, survival, error bars, dual Y-axes, heat maps and more. Switch the view, not the data.
+- **Palettes built for journals**: multiple scientific color schemes, including colorblind-safe options.
+- **Multi-panel layouts**: combine figures into a single composite with automatic a / b / c panel labels.
+
+### Export
+
+- PNG, SVG, and PDF at 300–600 DPI — what you preview on screen is exactly what you submit.
+- Vector output stays sharp at any scale and meets journal submission requirements.
+
+---

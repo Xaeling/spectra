@@ -1,0 +1,17 @@
+cargo:rerun-if-env-changed=STATAURA_APP_EXE
+cargo:rerun-if-env-changed=STATAURA_SETUP_AS_INVOKER
+cargo:rerun-if-changed=\\?\D:\project\stataura\target\release\stataura.exe
+cargo:rustc-env=APP_VERSION=0.19.2
+cargo:rerun-if-changed=../Cargo.toml
+cargo:rerun-if-changed=../assets/icon.ico
+Selected RC path: 'C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64\rc.exe'
+RC Output:
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+------
+RC Error:
+
+------
+cargo:rustc-link-arg=D:\project\stataura\installer\target\release\build\stataura-setup-c369c90e7f01a083\out\main_res.res

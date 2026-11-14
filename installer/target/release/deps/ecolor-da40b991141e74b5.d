@@ -1,0 +1,12 @@
+D:\project\stataura\installer\target\release\deps\ecolor-da40b991141e74b5.d: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\color32.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva_gamma.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\rgba.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hex_color_runtime.rs
+
+D:\project\stataura\installer\target\release\deps\libecolor-da40b991141e74b5.rlib: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\color32.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva_gamma.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\rgba.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hex_color_runtime.rs
+
+D:\project\stataura\installer\target\release\deps\libecolor-da40b991141e74b5.rmeta: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\color32.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva_gamma.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\rgba.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hex_color_runtime.rs
+
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\lib.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\color32.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva_gamma.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hsva.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\rgba.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\ecolor-0.37.0\src\hex_color_runtime.rs:

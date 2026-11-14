@@ -1,0 +1,12 @@
+D:\project\stataura\installer\target\release\deps\polycool-b8a437cefedc43a4.d: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\cubic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly_dyn.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\quadratic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\yuksel.rs
+
+D:\project\stataura\installer\target\release\deps\libpolycool-b8a437cefedc43a4.rlib: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\cubic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly_dyn.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\quadratic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\yuksel.rs
+
+D:\project\stataura\installer\target\release\deps\libpolycool-b8a437cefedc43a4.rmeta: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\cubic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly_dyn.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\quadratic.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\yuksel.rs
+
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\lib.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\cubic.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\poly_dyn.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\quadratic.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\polycool-0.4.0\src\yuksel.rs:

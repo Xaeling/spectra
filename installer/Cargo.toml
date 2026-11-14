@@ -1,0 +1,34 @@
+[package]
+name = "stataura-setup"
+version = "0.19.2"
+edition = "2021"
+description = "StatAura 离线安装器"
+license = "MIT OR Apache-2.0"
+build = "build.rs"
+
+[[bin]]
+name = "stataura-setup"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = ["glow", "default_fonts"] }
+egui = "0.37"
+image = { version = "0.25", default-features = false, features = ["png"] }
+rfd = "0.15"
+winreg = "0.52"
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_System_Com",
+    "Win32_UI_Shell",
+] }
+self-replace = "1.5"
+anyhow = "1"
+
+[build-dependencies]
+winresource = "0.1.34"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true

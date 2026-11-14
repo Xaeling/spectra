@@ -1,0 +1,17 @@
+D:\project\stataura\installer\target\release\deps\thiserror_impl-99f24401202ec156.d: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\ast.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\attr.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\expand.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fallback.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fmt.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\generics.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\prop.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\scan_expr.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\unraw.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\valid.rs
+
+D:\project\stataura\installer\target\release\deps\thiserror_impl-99f24401202ec156.dll: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\ast.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\attr.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\expand.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fallback.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fmt.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\generics.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\prop.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\scan_expr.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\unraw.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\valid.rs
+
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\lib.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\ast.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\attr.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\expand.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fallback.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\fmt.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\generics.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\prop.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\scan_expr.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\unraw.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\thiserror-impl-2.0.21\src\valid.rs:
+
+# env-dep:CARGO_PKG_VERSION_PATCH=21

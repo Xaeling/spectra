@@ -1,0 +1,12 @@
+D:\project\stataura\installer\target\release\deps\getrandom-ac6bee17825f299b.d: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\error.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\util.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\../README.md D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends\windows.rs
+
+D:\project\stataura\installer\target\release\deps\libgetrandom-ac6bee17825f299b.rlib: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\error.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\util.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\../README.md D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends\windows.rs
+
+D:\project\stataura\installer\target\release\deps\libgetrandom-ac6bee17825f299b.rmeta: D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\lib.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\error.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\util.rs D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\../README.md D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends\windows.rs
+
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\lib.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\error.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\util.rs:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\../README.md:
+D:\project\.cargo-home\registry\src\rsproxy.cn-e3de039b2554c837\getrandom-0.4.3\src\backends\windows.rs:
